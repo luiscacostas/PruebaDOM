@@ -104,7 +104,7 @@ const agregarTextosViajes = ()=>{
     const viajesText = document.querySelectorAll('.texto-viaje');
 
     viajesText.forEach((e, i)=>{
-        const viaje = document.createElement('H1');
+        const viaje = document.createElement('H3');
         const texto = document.createElement('P');
         viaje.textContent = `Viaje ${i+1}`;
         texto.textContent = 'Esta es una muesta de lo que se refleja en la pagina de viajes con las recomendaciones a los distintos destinos que puedes visitar en tu proximo viaje';
